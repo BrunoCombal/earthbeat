@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Earth Beat
+qgisMinimumVersion=2.0
+description=Display pixel multi-bands values in a chart
+version=0.1
+author=Bruno Combal
+email=bruno.combal@gmail.com
+
+about=Select a pixel in a multiple band raster to display its series of values in a chart.
+
+tracker=https://github.com/BrunoCombal/earthbeat/issues
+repository=https://github.com/BrunoCombal/earthbeat
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=time series, profile, chart, pixel, raster
+
+homepage=https://github.com/BrunoCombal/earthbeat/wiki
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
